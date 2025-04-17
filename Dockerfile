@@ -1,4 +1,4 @@
-FROM ubuntu:zesty-20171122
+FROM ubuntu:24.04
 
 ENV DEBIAN_FRONTEND=noninteractive \
     WORKDIR='/' \
