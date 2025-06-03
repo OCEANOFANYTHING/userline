@@ -15,7 +15,7 @@ services:
       - elasticsearch
 
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:6.8.23
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.0.2
     container_name: userline-elasticsearch
     restart: always
     environment:
