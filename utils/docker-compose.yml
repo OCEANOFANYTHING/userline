@@ -40,7 +40,7 @@ services:
         hard: 65536
 
   neo4j:
-    image: neo4j:3.2
+    image: neo4j:3.5
     container_name: userline-neo4j
     restart: always
     environment:
